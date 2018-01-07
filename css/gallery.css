@@ -1,0 +1,72 @@
+a:link,a:visited,a:hover,a:active{
+  text-decoration: none;
+}
+
+a:link h1{
+  font-size: 5em;
+}
+
+a:hover h1{
+  font-size: 6em;
+}
+
+.triangle {
+    position: absolute;
+    top: 50;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+.first-triangle {
+    -webkit-clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    background: #d6d6d6;
+}
+
+.second-triangle {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100vh);
+    background: #212121;
+}
+
+.a-img{
+  background-image: url(../img/Guitarflowerbw.jpg);
+  background-size: cover;
+  width:100%;
+}
+
+.a-img:hover{
+  background-image: url(../img/Guitarflower.jpg);
+  background-size: cover;
+  width:100%;
+}
+
+.b-img{
+  background-image: url(../img/Micrightbw.jpg);
+  background-size: cover;
+  width:100%;
+}
+
+.b-img:hover{
+  background-image: url(../img/Micright.jpg);
+  background-size: cover
+  width:100%;
+}
+
+.music-text{
+  color:white;
+  position: relative;
+  top: 70%;
+  left:5%;
+  font-size: 5em;
+}
+
+.video-text{
+  color:white;
+  position: relative;
+  top: 5%;
+  left:80%;
+  font-size: 5em;
+}
