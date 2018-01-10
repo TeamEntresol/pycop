@@ -5,6 +5,14 @@
   width:100%;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: whitesmoke;
+}
+
+.navbar-inverse .navbar-brand {
+    color: whitesmoke;
+}
+
 .top-section{
   height:1600px;
   background-image: url(../img/Guitarperson2.jpg);
@@ -83,8 +91,6 @@ circle{
 
 .a-button:hover{
   background-color: #3498db;
-  border: 2px solid #3498db;
-  border-radius:10px;
   color:black;
 }
 
