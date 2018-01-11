@@ -11,7 +11,7 @@
   <body>
     <div class="top-section">
       <nav class="navbar navbar-inverse my-navbar">
-        <div class="container-fluid nav-narrow">
+        <div class="container-fluid" id="nav">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -24,11 +24,11 @@
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="spacer"><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
-              <li class="spacer"><a href="#gallery"><span class="glyphicon glyphicon-briefcase"></span> GALLERY</a></li>
-              <li class="spacer"><a href="#worship"><span class="glyphicon glyphicon-certificate"></span> WORSHIP HOURS</a></li>
-              <li class="spacer"><a href="#about"><span class="glyphicon glyphicon-folder-open"></span> ABOUT</a></li>
-              <li class="spacer"><a href="#contact"><span class="glyphicon glyphicon-send"></span> CONTACT</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+              <li><a href="#gallery"><span class="glyphicon glyphicon-briefcase"></span> GALLERY</a></li>
+              <li><a href="#worship"><span class="glyphicon glyphicon-certificate"></span> WORSHIP HOURS</a></li>
+              <li><a href="#about"><span class="glyphicon glyphicon-folder-open"></span> ABOUT</a></li>
+              <li><a href="#contact"><span class="glyphicon glyphicon-send"></span> CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -65,24 +65,22 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-6 regulator" style="height:650px;">
-            <svg style="height:70%;width:85%;">
-              <circle cx="58%" cy="55%" r="180" fill="#3498db"/>
-            </svg>
-            <h1 class="in-text"><span class="glyphicon glyphicon-music"></span></h1>
-            <h1 class="white-text">Music</h1>
-            <p class="white-text p-begin">Christian tunes from around the world. Listen and be blessed by soul-lifting songs.
-            We have carefully picked the best songs around as the distinction between gospel and secular music gets more blurry each day.</p>
-            <a class="btn btn-primary a-button" href="music.html">More</a>
+            <i class="fa fa-music" aria-hidden="true"></i>
+            <div class="top-text">
+              <h1 class="white-text">Music</h1>
+              <p class="white-text p-begin">Christian tunes from around the world. Listen and be blessed by soul-lifting songs.
+              We have carefully picked the best songs around as the distinction between gospel and secular music gets more blurry each day.</p>
+              <p class="text-center"><a class="btn btn-primary a-button" href="music.html">More</a></p>
+            </div>
           </div>
           <div class="col-sm-6 col-md-6 col-lg-6 regulator" style="height:650px;">
-            <svg style="height:70%;width:85%;">
-              <circle cx="58%" cy="55%" r="180" fill="#3498db"/>
-            </svg>
-            <h1 class="in-text"><span class="glyphicon glyphicon-play-circle"></span></h1>
-            <h1 class="white-text">Video</h1>
-            <p class="white-text p-begin">Watch inspiration filled videos that deliver Holy Ghost filled vibes. Be sure to enjoy good visual experiences
-            that accompany christian songs and become more assured in the power of his great name.</p>
-            <a class="btn btn-primary a-button" href="video.html">More</a>
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
+            <div class="top-text">
+              <h1 class="white-text">Video</h1>
+              <p class="white-text p-begin">Watch inspiration filled videos that deliver Holy Ghost filled vibes. Be sure to enjoy good visual experiences
+                that accompany christian songs and become more assured in the power of his great name.</p>
+              <p class="text-center"><a class="btn btn-primary a-button" href="video.html">More</a></p>
+            </div>
           </div>
         </div>
       </div>
@@ -112,20 +110,11 @@
 
     <a id="about"></a>
     <div class="about-us container-fluid" style="padding-top:100px;">
-      <div class="row">
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <svg style="height=500px">
-            <circle cx="50%" cy="60%" r="100" stroke="#3498db" stroke-width="2" fill=""/>
-          </svg>
-        </div>
-        <div class="col-sm-12 col-md-9 col-lg-9">
-          <h1 style="color:white;margin-bottom:60px;">Shortly About Us</h1>
-          <h3 style="color:#3498db;margin-top:0px;margin-bottom:5px;">WE ARE A SPIRIT LED CHURCH WITH THAT WORSHIP CHRIST THE KING UNDER THE ONENESS OF THE SPIRIT</h3>
-          <p class="white-text p-begin" style="opacity:0.5;margin-top:0;">Some text should be inputed here just to describe the church in about three
-            lines of txt and all. This added text is just filler for what is and what not. I just needed to fill out the lines so you can see the beauty in it. More text
-          and even more text and the rest like dah like dah.</p>
-        </div>
-      </div>
+      <h1 style="color:white;margin-bottom:60px;text-align:center;">Shortly About Us</h1>
+      <h3 style="color:#3498db;margin-top:0px;margin-bottom:5px;">WE ARE A SPIRIT LED CHURCH WITH THAT WORSHIP CHRIST THE KING UNDER THE ONENESS OF THE SPIRIT</h3>
+      <p class="white-text p-begin" style="text-align:left;opacity:0.5;margin-top:10px;">Some text should be inputed here just to describe the church in about three
+        lines of txt and all. This added text is just filler for what is and what not. I just needed to fill out the lines so you can see the beauty in it. More text
+      and even more text and the rest like dah like dah.</p>
     </div>
 
     <a id="gallery"></a>
@@ -148,16 +137,17 @@
     <a id="contact"></a>
     <div class="container-fluid" style="height:300px;background-color:#3498db">
       <div class="row container" style="margin:auto">
-        <div class="col-sm-6 col-md-4 col-lg-4" style="height:100%;">
+        <div class="col-sm-4 col-md-4 col-lg-4" style="height:100%;">
           <h1><span class="glyphicon glyphicon-phone contact-icon"></span></h1>
-          <h4 class="contact-text">TELEPHONE:</h4>
-          <h4 class="contact-text" style="top:150px;">EMAIL:</h4>
+          <h4 class="contact-text">Telephone:</h4>
+          <br>
+          <h4 class="contact-text" style="top:150px;">Email:</h4>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4" style="height:100%;">
+        <div class="col-sm-4 col-md-4 col-lg-4" style="height:100%;">
           <h1><span class="glyphicon glyphicon-map-marker contact-icon"></span></h1>
-          <h4 class="contact-text">ADDRESS</h4>
+          <h4 class="contact-text">Address</h4>
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-4" style="height:100%;">
+        <div class="col-sm-4 col-md-4 col-lg-4" style="height:80%;">
           <ul class="inline-list" style="margin-top:30%">
             <li class="social">
               <a href="#" class="fa fa-instagram"></a>
