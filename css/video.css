@@ -27,8 +27,12 @@ a:hover{
     margin-top:0px;
     text-align: center;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .vid-responsive iframe{
     width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
 }

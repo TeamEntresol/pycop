@@ -1,10 +1,3 @@
-.navigation{
-  padding-top:200px;
-  padding-left: 150px;
-  height:700px;
-  width:100%;
-}
-
 .navbar-inverse .navbar-nav>li>a {
     color: whitesmoke;
 }
@@ -14,7 +7,7 @@
 }
 
 .top-section{
-  height:1600px;
+  height:1700px;
   background-image: url(../img/Guitarperson2.jpg);
   background-size: cover;
   background-position: center;
@@ -27,22 +20,13 @@
   border-radius: 0px;
   background-color: rgba(0, 0, 0, 0);
   border:0;
-  color:white !important;
-}
-
-.nav-narrow{
-  padding: 0px 150px;
-}
-
-.spacer{
-  margin-left: 50px;
 }
 
 .grey-text{
   color:grey;
   margin:auto;
-  margin-top:250px;
-  padding-bottom: 100px;
+  margin-top:200px;
+  padding-bottom: 70px;
 }
 
 .white-text{
@@ -63,23 +47,28 @@ h1{
   font-size: 5em;
 }
 
-.in-text{
+.regulator{
+  position: relative;
+}
+
+.regulator i{
+  font-size: 15em;
   color:white;
-  font-size: 10em;
-  text-align: center;
-  position: absolute;
+  position:absolute;
   top:26%;
   left:38%;
 }
 
-circle{
+.top-text{
   position: absolute;
+  top:75%;
 }
 
 .p-begin{
   margin-top:20px;
-  opacity: 0.5;
-  text-align: left;
+  opacity: 0.6;
+  text-align: center;
+  font-size:1.3em;
 }
 
 .a-button{
