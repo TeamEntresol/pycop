@@ -2,7 +2,6 @@
   background-image: url(../img/Micright.jpg);
   background-size: cover;
   background-position: center;
-  back
 }
 
 .transparency{
@@ -20,19 +19,24 @@ a:hover{
 
 .vid-responsive{
     overflow:hidden;
-    height:0;
     background-color:#ffffff;
     color:black;
-    height:400px;
+    height:600px;
     margin-top:0px;
     text-align: center;
+    text-decoration-style: dotted;
     margin-bottom: 100px;
     position: relative;
 }
 
-.vid-responsive iframe{
-    width:100%;
-    position:absolute;
-    bottom:0;
-    left:0;
+.vid-responsive h1{
+  text-decoration-line: underline;
+  font-size: 4em;
+}
+
+iframe{
+  border:0;
+  height:400px;
+  width:70%;
+  margin:0 10% 0 20%;
 }
