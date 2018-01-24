@@ -1,7 +1,4 @@
-.specs{
-  background-image: url(../img/Guitarflower.jpg);
-}
-
-.vid-responsive{
+.specs,body,.vid-responsive{
   background-color: #38373d;
+  background: #38373d;
 }
