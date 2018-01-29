@@ -115,14 +115,16 @@ ul{
 }
 
 .social{
-  display: block;
+  display: inline-block;
   float: left;
-  margin: 5px;
+  margin-left: 5px;
 }
 
 .inline-list li .fa {
-    display: inline-block;
+    display:inline-block;
     position: relative;
+    top:111.5px;
+    left:-26px;
     width: 77px;
     height: 77px;
     font-size: 25px;
@@ -130,7 +132,6 @@ ul{
     text-align: center;
     color: lightgrey;
     background: #58575f;
-    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
