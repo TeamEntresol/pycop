@@ -1,6 +1,21 @@
-.specs,body,.vid-responsive{
-  background-color: #38373d;
-  background: #38373d;
+body{
+	background-image:url(../img/Headset.jpg);
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.navbar-nav li a:hover{
+  border-top:3px solid orange;
+  height: 47px !important;
+}
+
+.specs,.vid-responsive{
+  background: 0;
 }
 
 iframe{
