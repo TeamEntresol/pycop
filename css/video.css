@@ -17,6 +17,13 @@ body{
   border-top:3px solid white;
 }
 
+@media only screen and (max-width: 768px){
+  .navbar-nav{
+    position:relative;
+    left:-150px;
+  }
+}
+
 .transparency{
   background-color: rgba(0,0,0,0);
   color:white;
@@ -50,64 +57,11 @@ a:hover{
 iframe{
   border:0;
   height:400px;
-  width:70%;
-  margin:0 10% 0 20%;
+  width:100%;
+  /**margin:0 10% 0 20%;**/
 }
 
 .great-text{
   background-color: rgba(243,243,243,0.5);
   height:600px;
-}
-
-
-.header1{
-  text-align: left;
-  font-family: "Trebuchet MS";
-  font-size: 50px;
-  color: #E0E0E0;
-  margin-left: 8%;
-  margin-right: 8%;
-  border-bottom: solid;
-}
-
-.header2{
-  text-align: left;
-  font-family: "Trebuchet MS";
-  font-size: 40px;
-  color: #333333;
-  margin-left: 8%;
-  margin-right: 8%;
-  border-bottom: solid;
-}
-
-.writeup{
-  text-align: left;
-  font-family: "Trebuchet MS";
-  font-size: 13px;
-  color: #E0E0E0;
-  margin-left: 8%;
-  margin-right: 8%;
-}
-
-.writeup2{
-  text-align: left;
-  font-family: "Trebuchet MS";
-  font-size: 13px;
-  font-weight: bold;
-  color: #171717;
-  margin-left: 10%;
-  margin-right: 8%;
-}
-
-.title{
-  margin-top: 1%;
-  font-family: "Arial";
-  font-size: 14px;
-  color: #E3BD6F;
-}
-
-.timestamp{
-  font-family: "Arial";
-  font-size: 9px;
-  color: #CCCCCC;
 }
