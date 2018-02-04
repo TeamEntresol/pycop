@@ -65,3 +65,21 @@ iframe{
   background-color: rgba(243,243,243,0.5);
   height:600px;
 }
+
+.title-text{
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 30px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #E0E0E0;
+}
+
+.title-text2{
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 30px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #E0E0E0;
+}

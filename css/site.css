@@ -1,6 +1,7 @@
 body{
-  font-family: 'Kalam', cursive;
+  font-family: 'Bitter', serif;
   position:relative;
+
 }
 
 p{
@@ -17,12 +18,12 @@ p{
 }
 
 .navbar-inverse .navbar-brand {
-    color: whitesmoke;
+    color: #FAAA03;
 }
 
 .top-section{
   height:1700px;
-  background-image: url(../img/Guitarperson2.jpg);
+  background-image: url(../img/GuitarPerson2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,7 +38,8 @@ p{
 }
 
 .grey-text{
-  color:grey;
+  color:#033;
+  text-shadow:0.5px 0.5px 2px #fff, 0.5px 0.5px 10px #FAAA03;
   margin:auto;
   margin-top:200px;
   padding-bottom: 70px;

@@ -11,9 +11,11 @@ a:hover h1{
 }
 
 .music-text{
-  color:white;
+  color:#000000;
+  text-shadow:0.5px 0.5px 2px #fff, 0.5px 0.5px 4px #FAAA03;
+  font-size: 25px;
+  font-weight: bold;
   position: relative;
-  top:140px;
 }
 
 .video-text{
@@ -22,8 +24,16 @@ a:hover h1{
   top:140px;
 }
 
+
+
+
+.sub-text{
+
+  color: white;
+}
+
 .a-house{
-  background-image: url(../img/Guitarflowerbw.jpg);
+  background-image: url(../img/church_bkgd-compressord.jpg);
   background-size: cover;
   height:95%;
   opacity: 0.5;
@@ -37,7 +47,7 @@ a:hover h1{
 }
 
 .a-house:hover{
-  background-image: url(../img/Guitarflower.jpg);
+  background-image: url(../img/church_bkgd-compressor.jpg);
   background-size: cover;
   height:95%;
   opacity: 0.9;
@@ -47,7 +57,7 @@ a:hover h1{
 }
 
 .b-house{
-  background-image: url(../img/Micrightbw.jpg);
+  background-image: url(../img/prayerd.jpg);
   background-size: cover;
   height:95%;
   opacity: 0.5;
@@ -57,7 +67,7 @@ a:hover h1{
 }
 
 .b-house:hover{
-  background-image: url(../img/Micright.jpg);
+  background-image: url(../img/prayer.jpg);
   background-size: cover;
   height:95%;
   opacity: 0.9;
