@@ -1,25 +1,35 @@
 body{
-	background-image:url(../img/Headset.jpg);
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-
+	background-image: url(../img/Headset.jpg);
 }
 
-.navbar-nav li a:hover{
-  border-top:3px solid orange;
-  height: 47px !important;
-}
-
-.specs,.vid-responsive{
-  background: 0;
+.vid-responsive{
+  background-color: #38373d;
+  background: #38373d;
 }
 
 iframe{
   height: 405px;
-  width:720px;
-  margin:0;
+  width:80%;
+  margin: 0 10%;
+}
+
+#big-text{
+	font-size: 4em;
+	font-color:red;
+}
+
+
+@media screen and (max-width:480px){
+	iframe{
+		height: 405px;
+  		width:90%;
+  		margin: 0 5%;
+	}
+    #big-text{
+		font-size: 1.2em;
+		font-color:red;
+	}
+	#small-text{
+		font-size:.5em;
+	}
 }

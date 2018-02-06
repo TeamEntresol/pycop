@@ -12,8 +12,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
 
-  <body onload="myFunction()">
-    <div id="loader"></div>
+  <body>
     <div id="myDiv" class="top-section animate-bottom">
       <div class=container>
         <nav id="mainNavbar" class="navbar navbar-inverse my-navbar">
@@ -41,7 +40,8 @@
         </nav>
       </div>
 
-      <div id="myCarousel" class="carousel slide white-text" data-ride="carousel" style="height:350px;">
+
+      <div id="myCarousel" class="carousel slide white-text" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -70,11 +70,15 @@
         </div>
       </div>
 
-<section class="info">
-      <div class="container-fluid">
+
+  <section class="info">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-6 regulator" style="height:650px;">
-            <i id="i-first" class="fa fa-music" aria-hidden="true"></i>
+          <div class="col-sm-12 col-md-6 col-lg-6 regulator"">
+            <div class="granit">
+              <a id="gallery"></a>
+              <i id="i-first" class="fa fa-music" aria-hidden="true"></i>
+            </div>
             <div class="top-text">
               <h1 class="white-text">Music</h1>
               <p class="white-text p-begin">Christian tunes from around the world. Listen and be blessed by soul-lifting songs.
@@ -82,8 +86,10 @@
               <p class="text-center"><a class="btn btn-primary btn-lg a-button" href="music.html">Listen</a></p>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-6 regulator" style="height:650px;">
-            <i id="i-second" class="fa fa-video-camera" aria-hidden="true"></i>
+          <div class="col-sm-12 col-md-6 col-lg-6 regulator">
+            <div id="video-gal" class="granit">
+              <i id="i-second" class="fa fa-video-camera" aria-hidden="true"></i>
+            </div>
             <div class="top-text">
               <h1 class="white-text">Videos</h1>
               <p class="white-text p-begin">Watch inspiration filled videos that deliver Holy Ghost filled vibes. Be sure to enjoy good visual experiences
@@ -94,41 +100,97 @@
         </div>
       </div>
     </div>
-</section>
+  </section>
 
-<section>
-    <div class="text-center container-fluid" style="background-color:#38373d;padding-top:80px;height:500px">
-      <h1 style="margin-bottom:5px;color:white;">Hey There!</h1>
-      <h3 style="color:#3498db;margin-top:0px;margin-bottom:50px;">WELCOME TO OUR YOUTH PARISH ONLINE GALLERY</h3>
-      <p class="white-text p-begin container text-center" style="opacity:0.3;">Our Youth Parish is your one go-to place for all your spiritual needs. We all are kindred spirits under the guidance of the Holy Spirit
+  <section id="greeting">
+    <div class="text-center container-fluid">
+      <h1>Hey There!</h1>
+      <h3>WELCOME TO OUR YOUTH PARISH ONLINE GALLERY</h3>
+      <p class="white-text p-begin container text-center">Our Youth Parish is your one go-to place for all your spiritual needs. We all are kindred spirits under the guidance of the Holy Spirit
         and unified under the worship of God. Come and experience the might of the most high God in our midst. </p>
     </div>
-</section>
+  </section>
 
-<section class="worship">
+  <section class="worship">
     <a id="worship"></a>
-    <div class="container text-center" style="height:600px;padding-top:100px;">
+    <div class="container text-center">
       <h1>Worship Hours</h1>
       <div class="row">
-        <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <div id="first-flip" class="flip">
+              <div class="front first">
+                <div class="worship-day">
+                  <p class="text-right">Sunday</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="worship-text">
+                  <p class="text-center">SERVICES</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <div id="second-flip" class="flip">
+              <div class="front second">
+                 <div class="worship-day">
+                  <p class="text-right">Monday</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="worship-text">
+                  <p class="text-center">SERVICES</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <div id="third-flip" class="flip">
+              <div class="front third">
+                 <div class="worship-day">
+                  <p class="text-right">Wednesday</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="worship-text">
+                  <p class="text-center">SERVICES</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="card">
+            <div id="fourth-flip" class="flip">
+              <div class="front fourth">
+                 <div class="worship-day">
+                  <p class="text-right">Saturday</p>
+                </div>
+              </div>
+              <div class="back">
+                <div class="worship-text">
+                  <p class="text-center">SERVICES</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-</section>
+  </section>
 
-<section>
-    <a id="about"></a>
-      <div class="row container-fluid">
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row">
         <div class="about-us container col-md-8 col-sm-8">
-          <h1 style="color:white;margin-bottom:60px;text-align:center;">Shortly About Us</h1>
-          <h3 style="color:#3498db;margin-top:0px;margin-bottom:5px;text-align:center;">WE ARE A SPIRIT LED CHURCH WITH THAT WORSHIP CHRIST THE KING UNDER THE ONENESS OF THE SPIRIT</h3>
-          <p class="white-text p-begin" style="text-align:center;opacity:0.5;margin-top:10px;">Some text should be inputed here just to describe the church in about three
+          <h1>Shortly About Us</h1>
+          <h3>WE ARE A SPIRIT LED CHURCH WITH THAT WORSHIP CHRIST THE KING UNDER THE ONENESS OF THE SPIRIT</h3>
+          <p class="white-text p-begin">Some text should be inputed here just to describe the church in about three
             lines of txt and all. This added text is just filler for what is and what not. I just needed to fill out the lines so you can see the beauty in it. More text
           and even more text and the rest like dah like dah.</p>
         </div>
@@ -142,48 +204,45 @@
           </div>
         </div>
       </div>
-</section>
-</br></br>
-<section class="gallery">
-    <a id="gallery"></a>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <a id="upcoming"></a>
     <div class="container-fluid">
-      <h1 class="text-center">Up-Comming Programmes</h1></br>
+      <h1 class="text-center">Events</h1></br>
       <div class="row" style="height:400px;">
-        <div class="col-sm-12 col-md-6 col-lg-6 a-house">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 a-house">
           <a class="a-img" href="#">
-            </br></br></br></br></br></br></br></br></br></br></br></br></br>
             <p class="sub-text">Kingdom Hall, Lekki Victoria-Island</br>25th Feb 2018.</br>2:00PM Prompt</br></p>
             <p class="music-text">Night of Wonders 4</p>
             
           </a>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 b-house">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 b-house">
           <a class="b-img" href="#">
-            </br></br></br></br></br></br></br></br></br></br></br></br></br>
-            
             <p class="sub-text">Parish Youth Church Cathedral, No.4 Kingsway Drive Victoria Island</br>Every Wednesday.</br>5:00PM Prompt</br></p>
             <p class="music-text">Prayer Meeting</p>
           </a>
         </div>
       </div>
     </div>
-</section>
+  </section>
 
-<section>
-    <a id="contact"></a>
-    <div style="height:300px;background-color:#3498db">
-      <div class="row container" style="margin:auto">
-        <div class="col-sm-4 col-md-4 col-lg-4" style="height:100%;">
-          <h1><span class="glyphicon glyphicon-phone contact-icon"></span></h1>
-          <h4 class="contact-text">Telephone:</h4>
+  <section id="contact">
+    <div>
+      <div class="row container">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <h1><span class="glyphicon glyphicon-envelope contact-icon"></span></h1>
+          <h4 class="contact-text">Telephone</h4>
           <br>
-          <h4 class="contact-text" style="top:150px;">Email:</h4>
+          <h4 class="contact-text l">Email</h4>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4" style="height:100%;">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 ad">
           <h1><span class="glyphicon glyphicon-map-marker contact-icon"></span></h1>
           <h4 class="contact-text">Address</h4>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4" style="height:100%;">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ad">
           <ul class="inline-list" style="width:100%;">
             <li class="social">
               <a href="#" class="fa fa-instagram"></a>
@@ -198,16 +257,16 @@
         </div>
       </div>
     </div>
-</section>
+  </section>
 
-<section>
-    <div class="container-fluid" style="height:200px;background-color:#38373d">
+  <section id="copyright">
+    <div class="container-fluid">
       <div class="container">
-        <h2 style="color:white;padding-top:20px;position:relative;top:30px;">Logo</h2>
-        <h4 style="color:lightgrey;text-align:right;">&copy; 2018 | Privacy Policy</h4>
+        <h2>Logo</h2>
+        <h4>&copy; 2018 | Privacy Policy</h4>
       </div>
     </div>
-</section>
+  </section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" 
             integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -216,26 +275,6 @@
     <script src="../lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
       window.sr =ScrollReveal();
-      function revealNextInSequence (sequence) {
-  if (sequence.next < sequence.elements.length) {
-    sr.reveal(sequence.elements[sequence.next++], {
-      afterReveal: function () {
-        revealNextInSequence(sequence)
-      }
-    })
-  }
-}
-
-function startSequence (selector) {
-  var sequence = {
-    elements: document.querySelectorAll(selector),
-    next: 0
-  }
-  revealNextInSequence(sequence)
-}
-
-startSequence('.mySequencedElems')
-
       sr.reveal('.navbar',{
         duration: 2000,
         origin: 'bottom'
@@ -248,56 +287,73 @@ startSequence('.mySequencedElems')
       sr.reveal('.about-us h1',{
         duration: 2000,
         origin: 'left',
-        distance:'500px',
-        viewFactor:0.2
+        distance:'300px',
+        viewFactor:0.2,
+        reset:true
       });
       sr.reveal('.about-us h3',{
         duration: 3000,
         origin: 'bottom',
         distance:'300px',
-        viewFactor:0.2
+        viewFactor: 0.2,
+        reset:true
       });
       sr.reveal('.about-us p',{
         duration: 2500,
         origin: 'right',
-        distance:'500px',
-        viewFactor:0.2
+        distance:'300px',
+        viewFactor: 0.2,
+        reset:true
       });
-      sr.reveal('.worship h1',{
+      sr.reveal('#worship h1',{
         duration: 2000,
         origin: 'top',
-        distance:'500px',
-        viewFactor:0.2
+        distance:'300px',
+        viewFactor: 0.2,
+        reset:true
       });
-      // sr.reveal('.gallery h1',{
-      //   duration: 2000,
-      //   origin: 'bottom',
-      //   distance:'500px',
-      //   viewFactor:0.2
-      // });
-      // sr.reveal('.gallery .a-house',{
-      //   duration: 2500,
-      //   origin: 'right',
-      //   distance:'500px',
-      //   viewFactor:0.2
-      // });
-      // sr.reveal('.gallery .b-house',{
-      //   duration: 2500,
-      //   origin: 'left',
-      //   distance:'500px',
-      //   viewFactor:0.2
-      // });
       sr.reveal('.pro-pic',{
         duration: 2000,
         origin: 'top',
         rotate: {x:20,y:100,z:50},
-        viewFactor:0.2
+        viewfactor: 0.2,
+        reset:true
       });
       sr.reveal('.pro-text',{
-        duration: 5000,
+        duration: 1200,
+        delay:2500,
         origin: 'bottom',
-        viewFactor:0.2
+        viewfactor: 0.2,
+        reset:true
       });
+      sr.reveal('#first-flip',{
+        duration: 5000,
+        delay: 1000,
+        origin: 'right',
+        viewFactor:0.2,
+        reset:true
+      })
+      sr.reveal('#second-flip',{
+        duration: 5000,
+        delay: 2000,
+        origin: 'right',
+        viewFactor:0.2,
+        reset:true
+      })
+      sr.reveal('#third-flip',{
+        duration: 5000,
+        delay: 3000,
+        origin: 'right',
+        viewFactor:0.2,
+        reset:true
+      })
+      sr.reveal('#fourth-flip',{
+        duration: 5000,
+        delay: 4000,
+        origin: 'right',
+        viewFactor:0.2,
+        reset:true
+      })
     </script>
     <script>
       $(function(){

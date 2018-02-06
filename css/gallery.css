@@ -46,6 +46,10 @@ a:hover h1{
   box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
 }
 
+.sub-text{
+  margin-top: 270px;
+}
+
 .a-house:hover{
   background-image: url(../img/church_bkgd-compressor.jpg);
   background-size: cover;
@@ -74,4 +78,13 @@ a:hover h1{
   margin:2.5%;
   width:45%;
   box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width:480px){
+  .sub-text{
+    margin-top: 200px;
+  }
+  .a-house,.b-house{
+    box-shadow: none;
+  }
 }

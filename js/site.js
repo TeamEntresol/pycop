@@ -1,3 +1,3 @@
-$function functionName() {
-  document.getElemen
-}﻿
+$(document).ready(function(){
+
+});
