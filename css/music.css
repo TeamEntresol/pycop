@@ -18,6 +18,23 @@ iframe{
 	font-color:red;
 }
 
+#footer{
+  height:200px;
+  background:0;
+}
+
+#footer>div>div>h2{
+  color:orange;
+  padding-top:20px;
+  position:relative;
+  top:30px;
+}
+
+#footer>div>div>h4{
+  color:lightgrey;
+  text-align:right;
+}
+
 
 @media screen and (max-width:480px){
 	iframe{

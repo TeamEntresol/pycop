@@ -1,6 +1,5 @@
 body{
-  font-family: 'Bitter', serif;
-  position:relative;
+  font-family: 'Kalam', cursive;
 }
 
 p{
@@ -9,10 +8,10 @@ p{
 
 .navbar-inverse .navbar-nav>li>a {
     color: whitesmoke;
-  }
+  } 
 
 .navbar-nav>li>a:hover{
-  border-top:3px solid #3498db;
+  border-top:3px solid orange;
   height:47px;
 }
 
@@ -159,6 +158,10 @@ h1{
   margin:auto;
 }
 
+.firstc,.secondc,.thirdc,.fourthc{
+  width:100%;
+}
+
 .first{
   background-image: url(../img/congregation1.jpg);
 }
@@ -206,7 +209,7 @@ h1{
     backface-visibility: hidden;
     transition: transform .3s linear 0s;
     -webkit-transition: transform .3s linear 0s;
-    width: 80%;
+    width: 100%;
     height: 100%;
     background-size:cover;
     box-shadow: 20px 20px 20px rgba(0,0,0,.1);
@@ -215,9 +218,11 @@ h1{
 .flip > .back {
     position: absolute;
     transform: perspective(600px) rotateY(180deg);
+    -webkit-transform: perspective(600px) rotateY(180deg);
     backface-visibility: hidden;
     transition: transform .3s linear 0s;
-    width: 80%;
+    -webkit-transition: transform .3s linear 0s;
+    width: 100%;
     height: 100%;
     box-shadow: 20px 20px 20px rgba(0,0,0,.1);
 }
@@ -296,13 +301,14 @@ h1{
 .contact-icon{
   position: relative;
   top:100px;
-  color:#58575f;
+  color: lightgray;
 }
 
 .contact-text{
   position: absolute;
   left:100px;
   top:120px;
+  color: #58575f;
 }
 
 .full{
@@ -356,8 +362,8 @@ ul{
     font-size: 25px;
     line-height: 77px;
     text-align: center;
-    color: lightgrey;
-    background: #58575f;
+    color: #58575f;
+    background: lightgray;
     -moz-border-radius: 50%;
     -webkit-border-radius:50%;
     border-radius: 50%;
@@ -369,7 +375,7 @@ ul{
 }
 
 #copyright>div>div>h2{
-  color:white;
+  color:orange;
   padding-top:20px;
   width:50px;
   position: relative;
@@ -380,6 +386,8 @@ ul{
   color:lightgrey;
   text-align:right;
 }
+
+
 
 
 @media screen and (max-width:480px){
@@ -564,5 +572,5 @@ ul{
 }
 
 @media screen and (max-width:767px){
-  
+
 }
