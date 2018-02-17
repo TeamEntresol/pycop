@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />  
     <meta charset="utf-8"/>
     <title>Home Page | Parish</title>
     <link href="https://fonts.googleapis.com/css?family=Kalam:300,400,700|Rajdhani:300,400,500,600,700" rel="stylesheet">
@@ -17,6 +17,8 @@
     <div id="myDiv" class="top-section animate-bottom">
       <div class="container">
         <nav id="mainNavbar" class="navbar navbar-inverse my-navbar">
+          <div class="container-fluid" id="nav">
+            <div class="navbar-header"><nav id="mainNavbar" class="navbar navbar-inverse my-navbar">
           <div class="container-fluid" id="nav">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -214,14 +216,14 @@
       <h1 class="text-center">Events</h1></br>
       <div class="row" style="height:400px;">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 a-house">
-          <a class="a-img">
+          <a class="a-img" href="#">
             <p class="sub-text">Kingdom Hall, Lekki Victoria-Island</br>25th Feb 2018.</br>2:00PM Prompt</br></p>
             <p class="music-text">Night of Wonders 4</p>
             
           </a>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 b-house">
-          <a class="b-img">
+          <a class="b-img" href="#">
             <p class="sub-text">Parish Youth Church Cathedral, No.4 Kingsway Drive Victoria Island</br>Every Wednesday.</br>5:00PM Prompt</br></p>
             <p class="music-text">Prayer Meeting</p>
           </a>
@@ -277,7 +279,7 @@
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-      window.sr =ScrollReveal({mobile:false});
+      window.sr =ScrollReveal();
       sr.reveal('.navbar',{
         duration: 2000,
         origin: 'bottom'
