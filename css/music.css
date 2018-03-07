@@ -35,6 +35,82 @@ iframe{
   text-align:right;
 }
 
+.empty{
+  background-color: rgba(0,0,0,0);
+  height:500px;
+}
+
+#mainpage{
+  position: relative;
+}
+
+#preload{
+  position: relative;
+  z-index: 1;
+  /*bottom:1034px;*/
+  height:750px;
+  background-color: #38373d;
+  /*left:1500px;*/
+}
+
+.thumbnail{
+  border-radius: 0;
+  border: 0;
+  padding:0;
+}
+
+.thumbnail>.caption{
+  padding-top:0px;
+}
+
+#row2{
+  margin-top: 10px;
+}
+
+#soulId{
+  position:relative;
+  bottom: 8px;
+}
+
+#rockId{
+  position:relative;
+  bottom: 87px;
+}
+
+#sermonId{
+  position:relative;
+  bottom: 85px;
+}
+
+div.total{
+  height:500px;
+  background-color: #fff;
+}
+
+div.musiccustom{
+  padding-top: 50px;
+  height:1000px;
+  background-color: #38373d;
+}
+
+.musiccustom > p{
+  color:white;
+  margin-bottom: 50px;
+}
+
+.musiccustom > p > label{
+  font-size: 5em;
+}
+
+
+.musiccustom > p > input{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  background-color: rgba(0,0,0,0);
+  position: relative;
+  bottom:15px;
+}
 
 @media screen and (max-width:480px){
 	iframe{

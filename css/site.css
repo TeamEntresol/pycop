@@ -1,17 +1,14 @@
-body{
-  font-family: 'Kalam', cursive;
-}
-
-p{
+h1,p{
   font-family: 'Rajdhani', sans-serif;
 }
+
 
 .navbar-inverse .navbar-nav>li>a {
     color: whitesmoke;
   } 
 
 .navbar-nav>li>a:hover{
-  border-top:3px solid orange;
+  border-top:3px solid #3498db;
   height:47px;
 }
 
@@ -211,7 +208,6 @@ h1{
     width: 80%;
     height: 100%;
     background-size:cover;
-    box-shadow: 20px 20px 20px rgba(0,0,0,.1);
 }
 
 .flip > .back {
@@ -223,7 +219,6 @@ h1{
     -webkit-transition: transform .3s linear 0s;
     width: 80%;
     height: 100%;
-    box-shadow: 20px 20px 20px rgba(0,0,0,.1);
 }
 
 .flip:hover > .front {
@@ -284,7 +279,7 @@ h1{
   text-align:center;
 }
 
-#about>div>div>.about-us>h3{
+#about > div > div > .about-us > h3{
   color:#3498db;
   margin-top:0px;
   margin-bottom:5px;
@@ -406,6 +401,7 @@ ul{
     opacity: 0.6;
     text-align: center;
     font-size:.5em;
+    color:black;
   }
   .white-text{
     height:180px;

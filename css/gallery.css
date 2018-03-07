@@ -11,8 +11,7 @@ a:hover h1{
 }
 
 .music-text{
-  color:#000000;
-  text-shadow:0.5px 0.5px 2px #fff, 0.5px 0.5px 4px #FAAA03;
+  color:#ffffff;
   font-size: 25px;
   font-weight: bold;
   position: relative;
@@ -30,17 +29,13 @@ a:hover h1{
 }
 
 .a-house{
-  background-image: url(../img/church_bkgd-compressord.jpg);
+  background-image: url(../img/Congregration2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height:95%;
   opacity: 0.5;
   margin:2.5%;
   width:45%;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
-}
-
-.a-img,.b-img{
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
 }
 
 .sub-text{
@@ -48,33 +43,33 @@ a:hover h1{
 }
 
 .a-house:hover{
-  background-image: url(../img/church_bkgd-compressor.jpg);
+  background-image: url(../img/Congregration.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height:95%;
   opacity: 0.9;
   margin:2.5%;
   width:45%;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
 }
 
 .b-house{
-  background-image: url(../img/prayerd.jpg);
+  background-image: url(../img/PrayRain2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height:95%;
   opacity: 0.5;
   margin:2.5%;
   width:45%;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
 }
 
 .b-house:hover{
-  background-image: url(../img/prayer.jpg);
+  background-image: url(../img/PrayRain.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   height:95%;
   opacity: 0.9;
   margin:2.5%;
   width:45%;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
 }
 
 
@@ -87,8 +82,5 @@ a:hover h1{
 @media screen and (max-width:480px){
   .sub-text{
     margin-top: 200px;
-  }
-  .a-house,.b-house{
-    box-shadow: none;
   }
 }

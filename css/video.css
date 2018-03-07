@@ -77,6 +77,13 @@ iframe{
   border-bottom-color: #E0E0E0;
 }
 
+#slider1{
+  margin-top: 100px;
+  height:600px;
+  background:0;
+  position:relative;
+}
+
 @media screen and (max-width:767px){
   .flyer{
     display:none;
