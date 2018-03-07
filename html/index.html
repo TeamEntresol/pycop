@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/site.css"/>
     <link rel="stylesheet" type="text/css" href="../css/gallery.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
 
@@ -52,7 +51,7 @@
         <div class="carousel-inner grey-text">
           <div class="item active carousel-text">
             <div class="jumbotron text-center trans">
-              <h1 class="centered-width">-Welcome to Church Online-</h1>
+              <h1 class="centered-width">-Welcome to Gallery Online-</h1>
               <h1 class="centered-width">The Parish Youth church of Penticost</h1>
             </div>
           </div>
@@ -76,8 +75,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-6 regulator"">
-            <div class="granit">
-              <a id="gallery"></a>
+            <div id="gallery" class="granit">
               <i id="i-first" class="fa fa-music" aria-hidden="true"></i>
             </div>
             <div class="top-text">
@@ -277,7 +275,7 @@
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-      window.sr =ScrollReveal({mobile:false});
+      window.sr = ScrollReveal({mobile:false});
       sr.reveal('.navbar',{
         duration: 2000,
         origin: 'bottom'
@@ -287,23 +285,26 @@
         origin: 'top',
         distance:'300px'
       });
-      // sr.reveal('granit',{
-      //   duration: 2500,
-      //   viewFactor:0.3,
-      //   origin: 'bottom'
-      // });
-      // sr.reveal('#i-first',{
-      //   duration: 2500,
-      //   origin: 'left',
-      //   distance:'500px'
-      //   viewFactor:0.3
-      // });
-      // sr.reveal('#i-second',{
-      //   duration: 2500,
-      //   origin: 'right',
-      //   distance:'500px'
-      //   viewFactor:0.3
-      // });
+      sr.reveal('#greeting>div>h1',{
+        origin:'left',
+        distance:'400px',
+        duration:1500,
+        reset:true
+      });
+      sr.reveal('#greeting>div>h3',{
+        origin:'left',
+        delay:300,
+        distance:'400px',
+        duration:1500,
+        reset:true
+      });
+      sr.reveal('#greeting>div>p',{
+        delay:600,
+        origin:'left',
+        distance:'400px',
+        duration:1500,
+        reset:true
+      });
       sr.reveal('.about-us h1',{
         duration: 2000,
         origin: 'left',
