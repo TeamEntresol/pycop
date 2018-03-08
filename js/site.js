@@ -1,3 +1,24 @@
 $(document).ready(function(){
-	
-})
+	$("#thumb1").click(function(){
+		$("#slider1").animate({
+			right:1300,
+			opacity:0.3,
+		});
+		$("#slider1").load("vimeo.html");
+		$("#slider1").animate({
+			right:0,
+			opacity:1,
+		});
+	});
+	$("#testClick").click(function(){
+		$("#slider1").animate({
+			right:1300,
+			opacity:0.3,
+		});
+		$("#slider1").unload();
+		$("#slider1").animate({
+			right:0,
+			opacity:1,
+		});
+	});
+});
