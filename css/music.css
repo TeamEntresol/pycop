@@ -37,7 +37,7 @@ iframe{
 
 .empty{
   background-color: rgba(0,0,0,0);
-  height:500px;
+  height:300px;
 }
 
 #mainpage{
@@ -47,10 +47,10 @@ iframe{
 #preload{
   position: relative;
   z-index: 1;
-  /*bottom:1034px;*/
-  height:750px;
+  bottom:100px;
+  margin-top: 150px;
+  height:740px;
   background-color: #38373d;
-  /*left:1500px;*/
 }
 
 .thumbnail{
